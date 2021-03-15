@@ -1,12 +1,11 @@
 var numeroTeste = 997;
 var resultado = [];
 
-for(i=1; i<=numeroTeste; i++){
-    if(numeroTeste%i == 0){
+for (i = 1; i <= numeroTeste; i++) {
+    if (numeroTeste % i == 0){
         resultado.push(i);
     }
 }
-
 
 console.log(resultado);
 
