@@ -1,2 +1,6 @@
 # IGTI-projects
-Projetos criados no bootcamp do IGTI
+
+Projetos criados com base no bootcamp do IGTI.
+
+Linguagem utilizada:
+- JavaScript
