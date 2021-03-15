@@ -1,6 +1,5 @@
 var numeroTeste = 997;
 var resultado = [];
-var somaPrimos = [];
 
 for(i=1; i<=numeroTeste; i++){
     if(numeroTeste%i == 0){
@@ -16,6 +15,3 @@ if(resultado.length > 2 || numeroTeste == 1) {
 } else {
     console.log(numeroTeste + " é um número primo");
 }
-
-
-
