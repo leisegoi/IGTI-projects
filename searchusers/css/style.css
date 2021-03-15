@@ -1,0 +1,17 @@
+.row {
+  margin-top: 50px
+}
+
+.panel {
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.roundImg{
+  border-radius: 100%;
+}
+
+h6{
+  margin-bottom: 40px;
+}

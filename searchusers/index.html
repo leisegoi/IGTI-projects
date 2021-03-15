@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Módulo 1 - Fundamentos (Desafio)</title>
+    <meta charset='utf-8'/>
+    <!-- Scripts CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h1 class="center-align">Pesquisa de Usuários</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s10">
+          <input placeholder="Digite o nome do usuário" id="searchInput" type="text">
+          <label for="searchInput">Busca</label>
+        </div>
+        <div class="input-field col s2">
+          <a class="waves-effect waves-light btn disabled" id='searchButton'>Buscar</a>
+        </div>
+      </div>
+      <div class="row hide" id="loading">
+        <div class="progress">
+          <div class="indeterminate"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <div class="panel">
+            <h6 id="usersHeader">Nenhum usuário filtrado</h6>
+            <table id="usersList"></table>
+          </div>
+        </div>
+        <div class="col s6">
+          <div class="panel" id="statistics">
+            <h6 id="statisticsHeader">Nada a ser exibido</h6>
+            <table id="statisticsList"></table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/script.js"></script>
+
+  <!-- Scripts JS -->
+</html>
